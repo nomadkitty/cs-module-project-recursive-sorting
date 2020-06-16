@@ -26,7 +26,7 @@ def merge_sort(arr):
     # base case: if len(arr) <=1 return arr
     if len(arr) <= 1:
         return arr
-    # recursive: divide arr to left arr and right arr
+    # recursively divide arr to left arr and right arr
     # pass them into helper funcition
     middle = len(arr) // 2
     left = arr[:middle]
